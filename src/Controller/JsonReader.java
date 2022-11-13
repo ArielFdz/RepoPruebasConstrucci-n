@@ -14,7 +14,7 @@ public class JsonReader {
 
     public JSONObject readJSON(String pathFile){
 
-        //Creamos un objetoEmpleado que almacenara a todos los empleados y sus atributos
+        //Creamos un objetoEmpleado que almacenara lo que se recupere del JSON
         JSONObject empleados = new JSONObject();
         JSONParser parser = new JSONParser();
 
